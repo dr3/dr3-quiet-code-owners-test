@@ -12,3 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: dr3/quiet-code-owners@v0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          code_owners_path: .github/QUIETCODEOWNERS
