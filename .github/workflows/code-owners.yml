@@ -10,4 +10,4 @@ jobs:
     name: Quiet-code-owners
     runs-on: ubuntu-latest
     steps:
-      - uses: dr3/quiet-code-owners
+      - uses: dr3/quiet-code-owners@0
