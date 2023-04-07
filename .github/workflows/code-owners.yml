@@ -4,6 +4,8 @@ on:
   pull_request_review:
     types: [dismissed, submitted]
   push:
+    branches-ignore:
+      - main
 
 jobs:
   Auto:
