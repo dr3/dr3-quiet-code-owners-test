@@ -1,4 +1,4 @@
-name: quiet-code-owners
+name: code-owners
 
 on:
   pull_request_review:
@@ -8,7 +8,7 @@ on:
       - main
 
 jobs:
-  QuietCodeOwners:
+  quiet:
     runs-on: ubuntu-latest
     steps:
       - uses: dr3/quiet-code-owners@v0
