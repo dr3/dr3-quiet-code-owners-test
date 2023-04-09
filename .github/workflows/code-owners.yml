@@ -1,5 +1,7 @@
 name: code-owners
 
+run-name: code-owners
+
 on:
   pull_request:
   pull_request_review:
